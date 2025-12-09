@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: whitesmoke;
+  background-color: #F4F4F4;
   color: #424242; /* default text color */
 }
 
@@ -201,3 +201,4 @@ body.dark-mode {
 .measure.dark-mode {
   color: #B8A5D4;
 }
+
