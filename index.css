@@ -1,0 +1,203 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+  color: #424242; /* default text color */
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+#header-start {
+  display: flex;
+}
+
+#header-end {
+  display: flex;
+  font-size: 8px;
+}
+
+/* Main content */
+main,
+input {
+  text-align: center;
+}
+
+.main-container {
+  background-color: #36899C;
+  color: #F4F4F4;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Input */
+#main-input {
+  font-family: inherit;
+  width: 150px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: #36899C;
+  border: 2px solid #5A537B;
+  border-radius: 6px;
+  font-size: 65px;
+  color: white;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+#main-input::placeholder {
+  color: #353535;
+}
+
+/* Button */
+#convert-btn {
+  width: 150px;
+  height: 45px;
+  margin: 20px auto 0;
+  border: 1px solid #5A537B;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+#convert-btn:hover {
+  cursor: pointer;
+  background-color: #5A537B;
+  color: #fff;
+}
+
+/* Measurements section */
+.measurements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  gap: 20px; /* use gap for spacing instead of margin */
+}
+
+.section-container {
+  background-color: white;
+  width: 750px;
+  height: 125px;
+  padding: 1rem;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Typography */
+p {
+  margin: 5px auto;
+}
+
+.measure {
+  color: #8468B6;
+  margin-bottom: 0.5rem;
+}
+
+.updated {
+  color: #424242;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 10px auto 0;
+}
+
+h2 {
+  margin: 5px 2px;
+}
+
+/* Input number styling to inherit font */
+input[type="number"],
+input[type="number"]:-webkit-autofill {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+/* Toggle switch styles */
+.toggle-switch {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  margin-right: 20px;
+  margin-left: 0;
+  user-select: none;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.toggle-switch input:checked + .slider {
+  background-color: #4caf50;
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1F2937;
+  color: #ffffff;
+}
+
+.section-container.dark-mode {
+  background-color: #273549;
+}
+
+.updated.dark-mode,
+.header-container.dark-mode {
+  color: #ffffff;
+}
+
+.main-container.dark-mode,
+.metric-input.dark-mode {
+  background-color: #6943FF !important;
+}
+
+.measure.dark-mode {
+  color: #B8A5D4;
+}
