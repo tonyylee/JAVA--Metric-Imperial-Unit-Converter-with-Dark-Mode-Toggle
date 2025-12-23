@@ -103,6 +103,10 @@ input {
 }
 
 /* Typography */
+.toggle-text{
+  font-size:1rem;
+}
+
 p {
   margin: 5px auto;
 }
@@ -201,4 +205,5 @@ body.dark-mode {
 .measure.dark-mode {
   color: #B8A5D4;
 }
+
 
