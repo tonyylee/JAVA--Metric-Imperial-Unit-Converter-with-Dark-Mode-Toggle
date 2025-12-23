@@ -25,3 +25,5 @@ Built with plain HTML, CSS, and JavaScript — clean and easy to use.
 4. Toggle light/dark mode using the switch in the header
 
 DISCLAIMER! For educational purposes only; not intended for professional use.
+
+quicklink to see the website layout: https://tonysjavacalculator.netlify.app 
