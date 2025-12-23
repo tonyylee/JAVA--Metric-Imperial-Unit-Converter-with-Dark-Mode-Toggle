@@ -24,6 +24,9 @@ Built with plain HTML, CSS, and JavaScript — clean and easy to use.
 3. View conversion results displayed below  
 4. Toggle light/dark mode using the switch in the header
 
-DISCLAIMER! For educational purposes only; not intended for professional use.
-
 quicklink to see the website layout: https://tonysjavacalculator.netlify.app 
+
+Performance Optimization:
+Achieved a perfect 100 score on Google Lighthouse by applying best practices in performance, accessibility, and SEO. This demonstrates my dedication to building high-quality, efficient, and user-centric web applications.
+
+DISCLAIMER! For educational purposes only; not intended for professional use.
